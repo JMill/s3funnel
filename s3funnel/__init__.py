@@ -2,6 +2,7 @@ import logging
 log = logging.getLogger(__name__)
 
 import boto
+import time
 import workerpool
 
 from boto.exception import BotoServerError, BotoClientError, S3ResponseError
